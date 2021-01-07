@@ -1,0 +1,234 @@
+.contain {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.nav {
+  height: 32px;
+}
+
+.nav li {
+  line-height: 32px;
+  color: #6c6c6c;
+}
+
+.nav li:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.nav-ul1 {
+  float: left;
+}
+
+.nav-ul1 > li {
+  float: left;
+  margin: 0 10px;
+}
+
+.nav-ul2 {
+  float: left;
+  margin-left: 210px;
+}
+
+.nav-ul2 > li {
+  float: left;
+  margin: 0 5px;
+}
+
+.nav-ul2 > li > img {
+  margin: 0 10px;
+}
+
+.nav-ul2 > li > span {
+  color: red;
+}
+
+#banner {
+  background: #ff4401;
+}
+
+.banner {
+  height: 60px;
+}
+
+.banner > h1 {
+  margin-top: 17px;
+  float: left;
+}
+
+.banner > .banner-ul {
+  float: left;
+  margin-left: 90px;
+}
+
+.banner > .banner-ul > li {
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 24px;
+}
+
+.banner > .banner-ul > li > img {
+  display: block;
+  margin-top: -6px;
+  margin-left: 14px;
+}
+
+.banner > .banner-ul > li > a {
+  color: white;
+  margin-left: 5px;
+}
+
+.main > ul {
+  float: left;
+}
+
+.main > ul > li {
+  margin: 30px 20px;
+  cursor: pointer;
+}
+
+.main > ul > li:hover {
+  color: red;
+}
+
+.main > form {
+  user-select: none;
+  width: 850px;
+  height: 520px;
+  float: left;
+  margin: 34px 0 0 52px;
+  border: 1px solid #6c6c6c;
+}
+
+.main > form > ul {
+  box-sizing: border-box;
+  padding: 32px 0 0 44px;
+  width: 100%;
+  height: 80%;
+  border-top: 1px solid #6c6c6c;
+}
+
+.main > form > ul > li {
+  width: 100%;
+  float: left;
+  margin: 20px 0;
+}
+
+.main > form > ul > li > input {
+  margin-left: 20px;
+  text-indent: 20px;
+}
+
+.main > form > ul > li > span {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+}
+
+.main > form > ul > li > em {
+  line-height: 36px;
+  font-size: 11px;
+  color: #999999;
+}
+
+.main > form > ul > li > button {
+  width: 60px;
+  height: 28px;
+  background: #ff4401;
+  outline: none;
+  border: 1px solid #ff4401;
+  border-radius: 8px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.main > form > span {
+  line-height: 40px;
+  margin-left: 30px;
+  font-weight: bold;
+  color: red;
+  font-size: 24px;
+}
+
+.input-img {
+  float: left;
+  display: block;
+  width: 85px;
+  height: 85px;
+  background: red;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.input-i {
+  float: left;
+}
+
+.input-text01 {
+  width: 330px;
+  height: 28px;
+  line-height: 28px;
+  border: solid 1px #cecece;
+}
+
+.input-text02 {
+  width: 146px;
+  height: 28px;
+  line-height: 28px;
+  border: solid 1px #cecece;
+}
+
+.input-text03 {
+  width: 530px;
+  height: 28px;
+  line-height: 28px;
+  border: solid 1px #cecece;
+}
+
+#last {
+  margin: 80px 0 0 10px;
+  width: 80px;
+  height: 28px;
+  background: #ff4401;
+  outline: none;
+  border: 1px solid #ff4401;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.main-form-ul-span01 {
+  color: #ff4401;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+#aler {
+  display: none;
+  width: 315px;
+  height: 200px;
+  background: white;
+  opacity: 0.9;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid #555555;
+}
+
+#aler > p {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  line-height: 130px;
+}
+
+#aler > button {
+  float: left;
+  margin: 0 57px;
+}
+/*# sourceMappingURL=self.css.map */

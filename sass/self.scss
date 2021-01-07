@@ -1,0 +1,220 @@
+
+.contain{
+    width: 1190px;
+    margin:  0 auto;
+}
+// 第一块导航
+.nav{
+    height: 32px;
+    li{
+        line-height: 32px;
+        color: #6c6c6c;
+        &:hover{
+            cursor: pointer;
+            color: red;
+        }
+    }
+    
+}
+.nav-ul1{
+    float: left;
+    >li{
+        float: left;
+        margin: 0 10px;
+    }
+}
+
+.nav-ul2{
+    float: left;
+    margin-left: 210px;
+    >li{
+        float: left;
+        margin: 0 5px;
+        >img{
+            margin: 0 10px;
+        }
+
+        >span{
+            color: red;
+        }
+
+    }  
+}
+
+// 第二块，banner图
+#banner{
+    background: #ff4401;
+}
+.banner{
+    height: 60px;
+    >h1{
+        margin-top: 17px;
+        float: left;
+    }
+    >.banner-ul{
+        float: left;
+        margin-left: 90px;
+        >li{
+            float: left;
+            text-align: center;
+            line-height: 60px;
+            margin: 0 24px;
+            >img{
+                display: block;
+                margin-top: -6px;
+                margin-left: 14px;
+
+            }
+            >a{
+                color: white;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+
+// 第三块 主要内容
+.main{
+    >ul{
+        float: left;
+        >li{
+            margin: 30px 20px;
+            cursor: pointer;
+            &:hover{
+                color: red;
+            }
+        }
+        
+    }
+    >form{
+        user-select:none;
+        width: 850px;
+        height: 520px;
+        float: left;
+        margin: 34px 0 0 52px;
+        border: 1px solid #6c6c6c;
+        >ul{
+            box-sizing: border-box;
+            padding: 32px 0 0 44px;
+            width: 100%;
+            height: 80%;
+            border-top: 1px solid #6c6c6c;
+            >li{
+                width: 100%;
+                float: left;
+                margin: 20px 0 ;
+                >input{
+                    margin-left: 20px;
+                    text-indent: 20px;
+                }
+                >span{
+                    display: inline-block;
+                    width: 70px;
+                    text-align: center;
+                }
+                >em{
+                    line-height: 36px;
+                    font-size: 11px;
+                    color: #999999;
+                }
+                >button{
+                    width: 60px;
+                    height: 28px;
+                    background: #ff4401;
+                    outline:none;
+                    border: 1px solid #ff4401;
+                    border-radius: 8px;
+                    margin: 0 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+        >span{
+            line-height: 40px;
+            margin-left: 30px;
+            font-weight: bold;
+            color: red;
+            font-size: 24px;
+        }
+    }
+
+
+}
+
+.input-img{
+    float: left;
+    display: block;
+    width: 85px;
+    height: 85px;
+    // border-radius: 50%;
+    background: red;
+    cursor: pointer;
+    margin-left: 20px;
+    // opacity: 0;
+}
+.input-i{
+    float: left;
+}
+.input-text01{
+    width: 330px;
+    height: 28px;
+    line-height: 28px;
+    border: solid 1px #cecece;
+}
+.input-text02{
+    width: 146px;
+    height: 28px;
+    line-height: 28px;
+    border: solid 1px #cecece; 
+}
+.input-text03{
+    width: 530px;
+    height: 28px;
+    line-height: 28px;
+    border: solid 1px #cecece; 
+}
+
+#last{
+    // float: left;
+    margin: 80px 0 0 10px;
+    width: 80px;
+    height: 28px;
+    background: #ff4401;
+    outline:none;
+    border: 1px solid #ff4401;
+    border-radius: 8px;
+    // margin: 0 5px;
+    cursor: pointer;
+    color: white;
+}
+.main-form-ul-span01{
+    color: #ff4401;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#aler{
+    display: none                                   ;
+    width: 315px;
+    height: 200px;
+    background: white;
+    opacity: 0.9;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #555555;
+    >p{
+        font-size: 30px;
+        color: red;
+        text-align: center;
+        line-height: 130px;
+    }
+    >button{
+        float: left;
+        margin: 0 57px;
+    }
+}

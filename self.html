@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人中心</title>
+    <link rel="shortcut icon" href="https://taobao.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./sass/self.css">
+</head>
+<body>
+    <div id="#nav">
+        <div class="nav contain">
+            <ul class="nav-ul1">
+                <li class="nav-ul1-li1">他的武器爸爸</li>
+                <li>手机诳淘宝</li>
+            </ul>
+            <ul class="nav-ul2">
+                <li>淘宝网首页</li>
+                <li>我的淘宝<img src="./images/self/index_12.jpg" alt=""></li>
+                <li>购物车<span>123</span> <img src="./images/self/index_12.jpg" alt=""></li>
+                <li>收藏夹<img src="./images/self/index_12.jpg" alt=""> </li>
+                <li>商品分类</li>
+                <li>免费开店</li>
+                <li>千牛卖家中心<img src="./images/self/index_12.jpg" alt=""></li>
+                <li>联系客服<img src="./images/self/index_12.jpg" alt=""></li>
+                <li>网站导航<img src="./images/self/index_12.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="banner">
+        <div class="contain banner">
+            <h1><a href="./index.html"><img src="./images/self/houtai_03.jpg" alt=""></a></h1>
+            <ul class="banner-ul">
+                <li>
+                    <a href="#">首页</a>
+                    <img src="./images/self/houtai_02_03.jpg" alt="">
+                </li>
+                <li>
+                    <a href="#">账户设置</a>
+                    <!-- <img src="./images/self/houtai_02_03.jpg" alt=""> -->
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="main">
+        <div class="contain main">
+
+            <ul class="main-ul">
+                <li>账号管理</li>
+                <li>安全设置</li>
+                <li>个人资料</li>
+                <li>个人成长信息</li>
+                <li>支付宝绑定设置</li>
+                <li>微博绑定设置</li>
+                <li>个人交易信息</li>
+                <li>收货地址</li>
+                <li>旺旺网页版</li>
+                <li>设置应用授权</li>
+            </ul>
+
+
+            <form class="main-form">
+                <span>个人资料</span>
+                <ul class="main-form-ul">
+                    <li>亲爱的
+                         <span class="main-form-ul-span01">淘宝用户</span> 
+                         ，填写真实的资料，有助于好友找到你哦。</li>
+                    <li>
+                        <i class="input-i">当前头像</i>
+                        <input type="file" name="file" id="file" class="inputfile" accept="image/*" disabled>
+                        <!-- <label for="file" class='btn btn-success'>Choose a file</label> -->
+                    </li>
+                    <li>
+                        <span>昵称:</span>
+                        <input type="text" class="input-text01" value="" placeholder="tao" disabled> <br>
+                        <em>昵称填写须知：与淘宝业务或卖家品牌冲突的昵称，淘宝将可能收回</em>
+                    </li>
+                   
+                    <li>
+                        <span>真实名称:</span>
+                        <input type="text" class="input-text02" placeholder="嗨" disabled> 
+                    </li>
+                    <li>
+                        <span>性别:</span>
+                        <input type="radio" name="sex" checked="" disabled>女
+                        <input type="radio" name="sex" checked="" disabled>男
+                    </li>
+
+                    <li>
+                        <span>个性签名:</span>
+                        <input type="text" class="input-text03" value="12345" placeholder="这人很懒，什么也没留下" disabled> 
+                    </li>
+
+                    <li>
+                        <button class="button1">编辑</button>
+                        <button class="button2">保存</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+    <button id="last">退出登录</button>
+
+    <div id="aler">
+        <p>确定退出登录吗</p>
+        <button>确定</button>
+        <button>取消</button>
+    </div>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/jquery1.12.4.min.js"></script>
+    <script src="./js/self.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+.contain{
+    width: 1190px;
+    margin: 0 auto;
+}
+.nav-top{
+    height: 60px;
+}
+.nav-top-ul{
+    float: left;
+    margin-top: 8px;
+}
+.nav-top-ul>li{
+    float: left;
+    margin: 0 8px;
+    line-height: 35px;
+    color: #6c6c6c;
+}
+.nav-top-ul>li:hover{
+    cursor: pointer;
+    color: red;
+}
+.nav-top>img{
+    float: right;
+    margin-top: 10px;
+}
+.nav-bottom{
+    height: 75px;
+}
+.nav-bottom>img:nth-child(1){
+    float: left;
+}
+.nav-bottom>img:nth-child(2){
+    float: right;
+}
+
+/* 这是主要内容区 */
+/* 第一个ul */
+.main-ul01{
+    height: 48px;
+    font-size: 16px;
+    color: #3c3c3c;
+    font-weight: bolder;
+    border-bottom: 2px solid #e6e6e6;
+}
+.main-ul01>li{
+    float: left;
+    width: 130px;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+}
+.main-ul01>li:nth-child(1){
+    color: red;
+    border-bottom: red 2px solid;
+}
+
+.main-ul02{
+    height: 50px;
+    margin: 10px 0;
+}
+.main-ul02>li{
+    line-height: 50px;
+    float: left;
+    /* margin: 0 50px; */
+}
+.main-ul02>li:nth-child(1){
+    margin-left: 140px;
+}
+.main-ul02>li:nth-child(2){
+    margin-left: 460px;
+}
+.main-ul02>li:nth-child(3){
+    margin-left: 105px;
+}
+.main-ul02>li:nth-child(4){
+    margin-left: 95px;
+}
+.main-ul02>li:nth-child(5){
+    margin-left: 145px;
+}
+
+.box-con{
+    margin-top: 10px;
+}
+
+/* 这里是物品内容 */
+.con-img{
+    height: 35px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+.con-img>img{
+    float: left;
+    margin: 0 10px;
+
+}
+
+.con-text{
+    width: 1188px;
+    height: 130px;
+    border: solid 1px #cccccc;
+    box-sizing: border-box;
+    padding: 21px 0 0 25px;
+}
+.con-text>div{
+    float: left;
+}
+.con-text>div:nth-child(1){
+    width: 330px;
+}
+.con-text>div:nth-child(1)>input{
+    float: left;
+    cursor: pointer;
+}
+.con-text>div:nth-child(1)>img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0 12px;
+}
+
+.con-text>div:nth-child(2){
+    margin-left: 290px;
+}
+.con-text-inp{
+    margin-left: 74px;
+}
+.con-text-inp>input{
+    width: 39px;
+    height: 23px;
+    float: left;
+    border: 1px solid #aaaaaa;
+    text-align: center;
+}
+.con-text-inp>button{
+    float: left;
+    width: 18px;
+    height: 25px;
+    cursor: pointer;
+    /* border: none; */
+    /* text-align: center; */
+}
+.con-text-moy{
+    margin-left: 40px;
+    color: #ff4400;
+    font-size: 20px;
+    font-weight: bold;
+}
+.del{
+    margin-left: 120px;
+    cursor: pointer;
+}
+.del:hover{
+    color: red;
+}
+#bottom{
+    position: relative;
+}
+.bottom{
+    height: 48px;
+    background: #e5e5e5;
+    position: fixed;
+    bottom: 0;
+    left: 356px;
+}
+
+.bottom-ul{
+    float: left;
+}
+.bottom-ul>li{
+    float: left;
+    line-height: 48px;
+    margin: 0 18px;
+    cursor: pointer;
+}
+.bottom-ul2{
+    float: right;
+}
+.bottom-ul2>li{
+    float: left;
+    line-height: 48px;
+    margin-left: 15px;
+}
+.pay{
+    width: 120px;
+    height: 48px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background: #ff4400;
+}
+.moyAll{
+    font-size: 22px;
+    color: #ff4400;
+    font-weight: bolder;
+}
+
+.h2{
+    font-size: 30px;
+    color: red;
+    margin: 0 auto;
+}
+.bottom-che{
+    cursor: pointer;
+}
+
+.nav-bottom>img:nth-child(1){
+    cursor: pointer;
+}

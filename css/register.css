@@ -1,0 +1,291 @@
+
+.contian{
+    width: 1190px;
+    margin: 0 auto;
+    /* background: black; */
+}
+.top{
+    overflow: hidden;
+    height: 94px;
+}
+.top>a{
+    display: block;
+    float: left;
+}
+.top>a:nth-child(1){
+    margin-top: 30px;
+}
+.top>a:nth-child(2){
+    margin-top: 35px;
+    margin-left: 900px;
+}
+.top>a:nth-child(2):hover{
+    color: chocolate;
+}
+
+
+#banner{
+    height: 600px;
+    background: url(https://img.alicdn.com/tfs/TB1xb5ipJTfau8jSZFwXXX1mVXa-2500-600.png) no-repeat;
+    background-size:contain;
+}
+.main{
+    position: relative;
+}
+.register{
+    width: 350px;
+    height: 350px;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    padding:25px;
+    box-sizing:border-box;
+}
+/* .registerOne{
+    padding-left: 7px;
+} */
+.registerOne :nth-child(3){
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.registerOne>span{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.registerOne>span:nth-child(1){
+    text-decoration: underline;
+}
+/* .registerOne>span:focus{
+    text-decoration:underline
+} */
+
+
+.passReg{
+    display: block;
+    margin-top: 20px;
+}
+
+.number>img{
+    float: left;
+}
+.number>input{
+    float: left;
+    height: 40px;
+    width: 258px;
+    border: solid 1px #f1eeee;
+    text-indent: 10px;
+}
+.password>img{
+    float: left;
+}
+.password{
+    float: left;
+    margin-top: 18px;
+}
+.password>input{
+    float: left;
+    height: 40px;
+    width: 258px;
+    border: solid 1px #f1eeee;
+    text-indent: 10px; 
+}
+
+.passReg2{
+    display: none;
+    margin-top: 20px;
+}
+
+.number>img{
+    float: left;
+}
+.number>input{
+    float: left;
+    height: 40px;
+    width: 258px;
+    border: solid 1px #f1eeee;
+    text-indent: 10px;
+}
+.password>img{
+    float: left;
+}
+.password{
+    float: left;
+    margin-top: 18px;
+}
+.input002{
+    float: left;
+    height: 40px;
+    width: 200px;
+    border: solid 1px #f1eeee;
+    text-indent: 10px; 
+}
+
+/* .input001{
+    float: left;
+    height: 40px;
+    width: 50px;
+    border: solid 1px #f1eeee;
+    text-indent: 10px; 
+}
+ */
+
+
+
+
+.passSub{
+    float: left;
+    width: 300px;
+    height: 42px;
+    border-radius: 5px;
+    line-height: 42px;
+    text-align: center;
+    background: #ff4400;
+    font-size: 17px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+/* -webkit-tap-highlight-color: rgba(0,0,0,0); */
+}
+
+.regElse{
+    float: left;
+    margin-top: 20px;
+}
+.regElse>a{
+    margin: 0 4px;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+.regElse>a:hover{
+    color: red;
+}
+
+.passBottom{
+    float: left;
+    margin-top: 25px;
+    position: absolute;
+    bottom: 45px;
+    right: 25px;
+}
+.passBottom>a{
+    float: right;
+    font-size: 12px;
+    color: #6c6c6c;
+    margin: 0 5px;
+}
+.passBottom>a:hover{
+    color: orange;
+}
+
+/* [阿里巴巴国际站|阿里巴巴中国站|全球速卖通 淘宝网|天猫|聚划算|一淘|阿里妈妈|飞猪|虾米*/
+
+.bottom-ul{
+    width: 100%;
+    height: 42px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    line-height: 42px;
+}
+.bottom-ul>li>a{
+    float: left;
+    margin: 0 5px;
+    color: #6c6c6c;
+}
+.bottom-ul>li>a:hover{
+    color: red;
+}
+.bottom-ul>li>:nth-child(1){
+    margin-left: 10px;
+}
+.bottom-ul>span{
+    float: left;
+    margin: 0 5px;
+    color: #e7e0df;
+}
+
+.bottom-img{
+    margin: 20px;
+
+}
+
+
+
+
+/* 等待动画 */
+.blinking{
+    width: 0px;
+    height: 0px;
+    background: white;
+    border-radius: 5px;
+    position: relative;
+    top: -550px;
+    left: 421px;
+    padding: 8px;
+    margin: 0 auto;
+    display: none;
+    z-index: 10;
+}
+.blinking span{
+    width: 20px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 20px;
+    background: #fc2104;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: 1s blink infinite;
+    transform-origin: left top;
+}
+@keyframes blink{
+    0%{
+        opacity: 0.4;
+    }
+    30%{
+        opacity: 0.6;
+    }
+    60%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.blinking span:first-child{
+    transform:rotate(45deg) translateX(18px);
+    animation-delay: 0.125s;
+}
+.blinking span:nth-child(2){
+    transform:rotate(90deg) translateX(18px);
+    animation-delay: 0.25s;
+}
+.blinking span:nth-child(3){
+    transform:rotate(135deg) translateX(18px);
+    animation-delay: 0.375s;
+}
+.blinking span:nth-child(4){
+    transform:rotate(180deg) translateX(18px);
+    animation-delay: 0.5s;
+}
+.blinking span:nth-child(5){
+    transform:rotate(225deg) translateX(18px);
+    animation-delay: 0.625s;
+}
+.blinking span:nth-child(6){
+    transform:rotate(270deg) translateX(18px);
+    animation-delay: 0.75s;
+}
+.blinking span:nth-child(7){
+    transform:rotate(315deg) translateX(18px);
+    animation-delay: 0.875s;
+}
+.blinking span:nth-child(8){
+    transform:rotate(360deg) translateX(18px);
+    animation-delay: 0s;
+}
